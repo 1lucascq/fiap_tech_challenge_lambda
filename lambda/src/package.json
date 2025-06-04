@@ -1,0 +1,10 @@
+{
+  "name": "lambda-cpf-auth",
+  "version": "1.0.0",
+  "description": "Lambda function for CPF authentication with Cognito",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.1046.0",
+    "pg": "^8.11.3"
+  }
+}
