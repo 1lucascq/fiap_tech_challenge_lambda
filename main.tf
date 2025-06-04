@@ -136,3 +136,8 @@ import {
   to = aws_cognito_user_pool_client.cpf_auth_client
   id = "us-east-1_5isSzg1fM/6362pgp6c711o29pmjso7h4pii"
 }
+
+import {
+  to = aws_lambda_function.auth_customer_lambda
+  id = "fiap-tc-lambda-auth-customer-lambda"
+}
