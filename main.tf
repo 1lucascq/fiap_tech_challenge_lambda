@@ -141,3 +141,8 @@ import {
   to = aws_lambda_function.auth_customer_lambda
   id = "fiap-tc-lambda-auth-customer-lambda"
 }
+
+import {
+  to = aws_lambda_permission.apigateway_lambda_permission
+  id = "fiap-tc-lambda-auth-customer-lambda/AllowAPIGatewayInvoke"
+}
